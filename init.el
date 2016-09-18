@@ -11,15 +11,10 @@
 (package-initialize)
 
 (add-to-list 'exec-path "C:/Users/Anuj Gandhi/AppData/Local/Programs/Python/Python35/")
-(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/zenburn-emacs")
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/blackboard-theme")
 
 ;;load-theme
-(defvar zenburn-override-colors-alist
-  '(("zenburn-bg+05" . "#282828")
-    ("zenburn-bg+1"  . "#2F2F2F")
-    ("zenburn-bg+2"  . "#3F3F3F")
-    ("zenburn-bg+3"  . "#4F4F4F")))
-(load-theme 'zenburn t)
+(load-theme 'blackboard t)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
